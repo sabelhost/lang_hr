@@ -1,4 +1,5 @@
 <?php
+
 function samir($lang){
   if($lang == 'ar'){
     echo "سمير وعلي";
@@ -15,6 +16,102 @@ function home_text($lang){
   }
 }
 
+function Expenses($lang){
+  if($lang == 'ar'){
+    echo  "الرئيسية";
+  }else{
+    echo  "Expenses";
+  }
+}
+
+function Read($lang){
+  if($lang == 'ar'){
+    echo  "الرئيسية";
+  }else{
+    echo  "Expenses";
+  }
+}
+
+function Write($lang){
+  if($lang == 'ar'){
+    echo  "الرئيسية";
+  }else{
+    echo  "Expenses";
+  }
+}
+
+function Edit($lang){
+  if($lang == 'ar'){
+    echo  "الرئيسية";
+  }else{
+    echo  "Expenses";
+  }
+}
+
+function Delete($lang){
+  if($lang == 'ar'){
+    echo  "الرئيسية";
+  }else{
+    echo  "Expenses";
+  }
+}
+
+function tel_text($lang){
+  if($lang == 'ar'){
+    echo  "الهاتف";
+  }else{
+    echo  "tel";
+  }
+}
+
+function Repetition($lang){
+  if($lang == 'ar'){
+    echo  "التكرار";
+  }else{
+    echo  "Repetion";
+  }
+}
+
+function YourRequestContent($lang){
+  if($lang == 'ar'){
+    echo  "محتوي الطلب";
+  }else{
+    echo  "Your Request Content";
+  }
+}
+
+function RequestType($lang){
+  if($lang == 'ar'){
+    echo  "نوع الطلب";
+  }else{
+    echo  "Request Type";
+  }
+}
+
+function RequestStatus($lang){
+  if($lang == 'ar'){
+    echo  "حالة الطلب";
+  }else{
+    echo  "Request Status";
+  }
+}
+
+function Category($lang){
+  if($lang == 'ar'){
+    echo  "الفئة";
+  }else{
+    echo  "Category";
+  }
+}
+
+function Inbox($lang){
+  if($lang == 'ar'){
+    echo  "البريد الوارد";
+  }else{
+    echo  "Inbox";
+  }
+}
+
 function Settings_text($lang){
   if($lang == 'ar'){
     echo  "الأعدادات";
@@ -23,11 +120,126 @@ function Settings_text($lang){
   }
 }
 
+function ActualIn($lang){
+  if($lang == 'ar'){
+    echo  "وقت الدخول";
+  }else{
+    echo  "Actual In";
+  }
+}
+
+function SelectRoles($lang){
+  if($lang == 'ar'){
+    echo  "اختر صلاحيات الوظيفة";
+  }else{
+    echo  "Select Job Roles";
+  }
+}
+
+function RoleTitle($lang){
+  if($lang == 'ar'){
+    echo  "عنوان الصلاحية";
+  }else{
+    echo  "Role Title";
+  }
+}
+
+function ActualOut($lang){
+  if($lang == 'ar'){
+    echo  "وقت الخروج";
+  }else{
+    echo  "Actual Out";
+  }
+}
+
+function FingerPrint($lang){
+  if($lang == 'ar'){
+    echo  "البصمة";
+  }else{
+    echo  "Finger Print";
+  }
+}
+
+function StartDate($lang){
+  if($lang == 'ar'){
+    echo  "تاريخ البدء";
+  }else{
+    echo  "Start Date";
+  }
+}
+
+function Filter($lang){
+  if($lang == 'ar'){
+    echo  "تصفية";
+  }else{
+    echo  "Filter";
+  }
+}
+
+
+
+function Shift($lang){
+  if($lang == 'ar'){
+    echo  "وردية";
+  }else{
+    echo  "Shift";
+  }
+}
+
+function NewSchedule($lang){
+  if($lang == 'ar'){
+    echo  "جدول جديد";
+  }else{
+    echo  "New Schedule";
+  }
+}
+
+function EndDate($lang){
+  if($lang == 'ar'){
+    echo  "تاريخ الانتهاء";
+  }else{
+    echo  "End Date";
+  }
+}
+
+
 function Organizations_text($lang){
   if($lang == 'ar'){
     echo  "البناء الهيكلي";
   }else{
-    echo  "company structure";
+    echo  "Company structure";
+  }
+}
+
+function True_text($lang){
+  if($lang == 'ar'){
+    echo  "نعم";
+  }else{
+    echo  "True";
+  }
+}
+
+function False_text($lang){
+  if($lang == 'ar'){
+    echo  "لا";
+  }else{
+    echo  "False";
+  }
+}
+
+function FirstName($lang){
+  if($lang == 'ar'){
+    echo  "الأسم الأول";
+  }else{
+    echo  "First Name";
+  }
+}
+
+function LastName($lang){
+  if($lang == 'ar'){
+    echo  "الأسم الأخير";
+  }else{
+    echo  "Last Name";
   }
 }
 
@@ -46,6 +258,32 @@ function AllNotification($lang){
   }
 }
 
+function AllEmployeeLeaves($lang){
+  if($lang == "ar"){
+    echo "كل اجازات الموظفين";
+  }else {
+    echo "All Employee Leaves";
+  }
+}
+
+function EmployeeID($lang){
+  if($lang == "ar"){
+    echo "الرقم الوظيفي";
+  }else {
+    echo "Employee ID";
+  }
+}
+
+
+function EmployeeName($lang){
+  if($lang == "ar"){
+    echo "اسم الموظف";
+  }else {
+    echo "Employee Name";
+  }
+}
+
+
 function Attached_text($lang){
   if($lang == "ar"){
     echo "المرفقات";
@@ -59,6 +297,22 @@ function Messages_text($lang){
     echo "الرسائل النصية";
   }else {
     echo " Text Messages";
+  }
+}
+
+function AllMessages($lang){
+  if($lang == "ar"){
+    echo "كل الأشعارات";
+  }else {
+    echo "All Notifications";
+  }
+}
+
+function AllMessages_text($lang){
+  if($lang == "ar"){
+    echo "كل الرسائل";
+  }else {
+    echo "All Messages";
   }
 }
 
@@ -152,6 +406,38 @@ function HolidayLeaves_text($lang){
   }
 }
 
+function Manual($lang){
+  if($lang == 'ar'){
+    echo  "يدوي";
+  }else{
+    echo  "Manual";
+  }
+}
+
+function Bulk($lang){
+  if($lang == 'ar'){
+    echo  "كُتلة";
+  }else{
+    echo  "Bulk";
+  }
+}
+
+function HolidayManagement($lang){
+  if($lang == 'ar'){
+    echo  "ادارة الأجازات";
+  }else{
+    echo  "Holiday Management";
+  }
+}
+
+function HolidayName($lang){
+  if($lang == 'ar'){
+    echo  "اسم الاجازة";
+  }else{
+    echo  "Holiday Name";
+  }
+}
+
 function AllLeaves_text($lang){
   if($lang == 'ar'){
     echo  "الأجازات";
@@ -168,6 +454,23 @@ function NewLeaveRequest_text($lang){
   }
 }
 
+
+function NewEmployeeLeave($lang){
+  if($lang == 'ar'){
+    echo  "اجازة جديدة للموظف";
+  }else{
+    echo  "New Employee Leave";
+  }
+}
+
+function NewEmployee($lang){
+  if($lang == 'ar'){
+    echo  "موظف جديد";
+  }else{
+    echo  "New Employee";
+  }
+}
+
 function PendingLeaveRequest_text($lang){
   if($lang == 'ar'){
     echo  "طلبات قيد الانتظار";
@@ -175,6 +478,40 @@ function PendingLeaveRequest_text($lang){
     echo  "Pending Leave Request";
   }
 }
+
+function Pending($lang){
+  if($lang == 'ar'){
+    echo  "قيد الأنتظار";
+  }else{
+    echo  "Pending";
+  }
+}
+
+
+function Accepted($lang){
+  if($lang == 'ar'){
+    echo  "مقبولة";
+  }else{
+    echo  "Accepted";
+  }
+}
+
+function Rejected($lang){
+  if($lang == 'ar'){
+    echo  "مرفوضة";
+  }else{
+    echo  "Rejected";
+  }
+}
+
+function Canceled($lang){
+  if($lang == 'ar'){
+    echo  "ملغيه";
+  }else{
+    echo  "Canceled";
+  }
+}
+
 
 function HolidayCalendar_text($lang){
   if($lang == 'ar'){
@@ -189,6 +526,79 @@ function NewRequest_text($lang){
     echo  "طلب جديد";
   }else{
     echo  "New Request";
+  }
+}
+
+function Products($lang){
+  if($lang == 'ar'){
+    echo  "المنتجات";
+  }else{
+    echo  "Products";
+  }
+}
+
+
+function Previous_text($lang){
+  if($lang == 'ar'){
+    echo  "السابق";
+  }else{
+    echo  "Previous";
+  }
+}
+
+function PreviousProducts($lang){
+  if($lang == 'ar'){
+    echo  "المنتجات المسجلة";
+  }else{
+    echo  "Previous Products";
+  }
+}
+
+function ProductPrice($lang){
+  if($lang == 'ar'){
+    echo  "سعر المنتج";
+  }else{
+    echo  "Product Price";
+  }
+}
+
+function ProductName($lang){
+  if($lang == 'ar'){
+    echo  "اسم المنتج";
+  }else{
+    echo  "Product Name";
+  }
+}
+
+function InstallmentMonths($lang){
+  if($lang == 'ar'){
+    echo  "عدد شهور التقسيط";
+  }else{
+    echo  "Installment Months";
+  }
+}
+
+function SelectProduct($lang){
+  if($lang == 'ar'){
+    echo  "أختر المنتج";
+  }else{
+    echo  "Select Product";
+  }
+}
+
+function InstallmentValue($lang){
+  if($lang == 'ar'){
+    echo  "قيمة القسط الواحد";
+  }else{
+    echo  "Installment Value";
+  }
+}
+
+function ApprovedRequests($lang){
+  if($lang == 'ar'){
+    echo  "طلبات مقبولة";
+  }else{
+    echo  "Approved Requests";
   }
 }
 
@@ -249,6 +659,14 @@ function Rejected_text($lang){
   }
 }
 
+function View($lang){
+  if($lang == 'ar'){
+    echo  "عرض";
+  }else{
+    echo  "View";
+  }
+}
+
 function ToBeReviewed_text($lang){
   if($lang == 'ar'){
     echo  "طلبات قيد المراجعة";
@@ -281,6 +699,71 @@ function Salary_text($lang){
   }
 }
 
+function SalaryStructure($lang){
+  if($lang == 'ar'){
+    echo  "بنية الراتب";
+  }else{
+    echo  "Salary Structure";
+  }
+}
+
+function LaborHours($lang){
+  if($lang == 'ar'){
+    echo  "ساعات العمل";
+  }else{
+    echo  "Labor Hours";
+  }
+}
+
+function LaborDays($lang){
+  if($lang == 'ar'){
+    echo  "ايام العمل";
+  }else{
+    echo  "Labor Days";
+  }
+}
+
+function DaysPerWeek($lang){
+  if($lang == 'ar'){
+    echo  "يوم في الأسبوع";
+  }else{
+    echo  "Day / Week";
+  }
+}
+
+function HoursPerDay($lang){
+  if($lang == 'ar'){
+    echo  "ساعة في اليوم";
+  }else{
+    echo  "Hour / Day";
+  }
+}
+
+function LabourDays($lang){
+  if($lang == 'ar'){
+    echo  "ايام العمل";
+  }else{
+    echo  "Labor Days";
+  }
+}
+
+function BasicInfo($lang){
+  if($lang == 'ar'){
+    echo  "معلومات اساسية";
+  }else{
+    echo  "Basic Info";
+  }
+}
+
+function EGP($lang){
+  if($lang == 'ar'){
+    echo  "جنية مصري";
+  }else{
+    echo  "EGP";
+  }
+}
+
+
 function Bonus_text($lang){
   if($lang == 'ar'){
     echo  "العلاوة";
@@ -297,11 +780,69 @@ function Payslips_text($lang){
   }
 }
 
+function PayFrequency($lang){
+  if($lang == 'ar'){
+    echo  "تكرار القبض";
+  }else{
+    echo  "Pay Frequency";
+  }
+}
+
+
+function SelectEmployee($lang){
+  if($lang == 'ar'){
+    echo  "اختر الموظف";
+  }else{
+    echo  "Select Employee";
+  }
+}
+
+function DayAndTime($lang){
+  if($lang == 'ar'){
+    echo  "اليوم والوقت";
+  }else{
+    echo  "Day And Time";
+  }
+}
+
+function NetSalary($lang){
+  if($lang == 'ar'){
+    echo  "صافي الراتب";
+  }else{
+    echo  "Net Salary";
+  }
+}
+
+
+function Cause_text($lang){
+  if($lang == 'ar'){
+    echo  "السبب";
+  }else{
+    echo  "Cause";
+  }
+}
+
 function Deduction_text($lang){
   if($lang == 'ar'){
-    echo  "الخصم";
+    echo  "خصم";
   }else{
     echo  "Deduction";
+  }
+}
+
+function NewDeduction($lang){
+  if($lang == 'ar'){
+    echo  "خصم جديد";
+  }else{
+    echo  "New Deduction";
+  }
+}
+
+function DeductionValue($lang){
+  if($lang == 'ar'){
+    echo  "قيمة الخصم";
+  }else{
+    echo  "Deduction Value";
   }
 }
 
@@ -336,35 +877,20 @@ function Branchs_text($lang){
     echo  "Branchs";
   }
 }
-function NewBranch_text($lang){
-  if($lang == 'ar'){
-    echo  "فرع جديد";
-  }else{
-    echo  "New Branch";
-  }
-}
-function BranchName_text($lang){
-  if($lang == 'ar'){
-    echo  "إسم الفرع";
-  }else{
-    echo  "Branch Name";
-  }
-}
 
+function Type($lang){
+  if($lang == 'ar'){
+    echo  "نوع الأجازة";
+  }else{
+    echo  "Type";
+  }
+}
 
 function Department_text($lang){
   if($lang == 'ar'){
     echo  "الإدارة";
   }else{
     echo  "Department";
-  }
-}
-
-function NewDepartment_text($lang){
-  if($lang == 'ar'){
-    echo  "إدارة جديدة";
-  }else{
-    echo  "New Department";
   }
 }
 
@@ -375,22 +901,6 @@ function Departments_text($lang){
     echo  "Departments";
   }
 }
-
-function NewDepartment($lang){
-  if($lang == 'ar'){
-    echo  "إضافة إدارة جديدة";
-  }else{
-    echo  "Add New Department ";
-  }
-}
-function DepartmentName_text($lang){
-  if($lang == 'ar'){
-    echo  "إسم الإدارة";
-  }else{
-    echo  "Department Name";
-  }
-}
-
 
 function Section_text($lang){
   if($lang == 'ar'){
@@ -408,14 +918,6 @@ function Sections_text($lang){
   }
 }
 
-function NewSection($lang){
-  if($lang == 'ar'){
-    echo  "قسم جديد";
-  }else{
-    echo  "New Section";
-  }
-}
-
 function companystructure_text($lang){
   if($lang == 'ar'){
     echo  "الهيكل الوظيفي والإداري للشركة";
@@ -423,13 +925,7 @@ function companystructure_text($lang){
     echo  "company structure";
   }
 }
-function newCopany($lang){
-  if($lang == 'ar'){
-    echo  "شركة جديدة";
-  }else{
-    echo  "New company";
-  }
-}
+
 function Roles_text($lang){
   if($lang == 'ar'){
     echo  "الأدوار و الصلحيات";
@@ -518,11 +1014,36 @@ function Basic_text($lang){
   }
 }
 
+function BasicSalary($lang){
+  if($lang == 'ar'){
+    echo  "اساسي";
+  }else{
+    echo  "Basic Salary";
+  }
+}
+
 function Add_text($lang){
   if($lang == 'ar'){
     echo  "اضافة";
   }else{
     echo  "Add";
+  }
+}
+
+
+function AddNewRequest($lang){
+  if($lang == 'ar'){
+    echo  " اضافة طلب جديد";
+  }else{
+    echo  "Add New Request";
+  }
+}
+
+function AddNewEmployee($lang){
+  if($lang == 'ar'){
+    echo  " اضافة موظف جديد";
+  }else{
+    echo  "Add New Employee";
   }
 }
 
@@ -663,20 +1184,11 @@ function Phone_text($lang){
   }
 }
 
-
 function Number_text($lang){
   if($lang == 'ar'){
     echo  "رقم";
   }else{
     echo  "Number";
-  }
-}
-
-function Reset_text($lang){
-  if($lang == 'ar'){
-    echo  "تفريغ";
-  }else{
-    echo  "Reset";
   }
 }
 
@@ -701,6 +1213,46 @@ function Date_text($lang){
     echo  "تاريخ";
   }else{
     echo  "Date";
+  }
+}
+
+function SelectPhoto($lang){
+  if($lang == 'ar'){
+    echo  "اختر صورة";
+  }else{
+    echo  "Select Photo";
+  }
+}
+
+function DateOfBirth($lang){
+  if($lang == 'ar'){
+    echo  "تاريخ الميلاد";
+  }else{
+    echo  "Date Of Birth";
+  }
+}
+
+function DateOfJoining($lang){
+  if($lang == 'ar'){
+    echo  "تاريخ التوظيف";
+  }else{
+    echo  "Date Of Joining";
+  }
+}
+
+function DateOfDeduction($lang){
+  if($lang == 'ar'){
+    echo  "تاريخ الخصم";
+  }else{
+    echo  "Date Of Deduction";
+  }
+}
+
+function Reset_text($lang){
+  if($lang == 'ar'){
+    echo  "تفريغ";
+  }else{
+    echo  "Reset";
   }
 }
 
@@ -744,6 +1296,14 @@ function Job_text($lang){
   }
 }
 
+function JobTitle($lang){
+  if($lang == 'ar'){
+    echo  "المسمي الوظيفي";
+  }else{
+    echo  "Job Title";
+  }
+}
+
 function Marital_text($lang){
   if($lang == 'ar'){
     echo  "الحالة الإجتماعية";
@@ -784,6 +1344,22 @@ function Account_text($lang){
   }
 }
 
+function AccountNumber($lang){
+  if($lang == 'ar'){
+    echo  "رقم الحساب";
+  }else{
+    echo  "Account Number";
+  }
+}
+
+function BranchID($lang){
+  if($lang == 'ar'){
+    echo  "رقم الفرع";
+  }else{
+    echo  "Branch ID";
+  }
+}
+
 function Insurance_text($lang){
   if($lang == 'ar'){
     echo  "التأمين";
@@ -815,6 +1391,31 @@ function Career_text($lang){
     echo  "Career";
   }
 }
+
+function InsuranceNumber($lang){
+  if($lang == 'ar'){
+    echo  "الرقم التأميني";
+  }else{
+    echo  "Insurance Number";
+  }
+}
+
+function NationalID($lang){
+  if($lang == 'ar'){
+    echo  "الرقم القومي";
+  }else{
+    echo  "National ID";
+  }
+}
+
+function CareerPath_text($lang){
+  if($lang == 'ar'){
+    echo  "المسار المهني";
+  }else{
+    echo  "Career Path";
+  }
+}
+
 
 function Path_text($lang){
   if($lang == 'ar'){
@@ -923,6 +1524,14 @@ function From_text($lang){
   }
 }
 
+function Total($lang){
+  if($lang == 'ar'){
+    echo  "المجموع";
+  }else{
+    echo  "Total";
+  }
+}
+
 function To_text($lang){
   if($lang == 'ar'){
     echo  "إلى";
@@ -936,6 +1545,47 @@ function Monthly_text($lang){
     echo  "شهري";
   }else{
     echo  "Monthly";
+  }
+}
+
+function Bonus_Rate($lang){
+  if($lang == 'ar'){
+    echo  "قيمة العلاوة";
+  }else{
+    echo  "Bonus Value";
+  }
+}
+
+function MonthlyTax($lang){
+  if($lang == 'ar'){
+    echo  "ضريبة شهرية";
+  }else{
+    echo  "Monthly Tax";
+  }
+}
+
+function SocialInsurance($lang){
+  if($lang == 'ar'){
+    echo  "تأمين اجتماعي";
+  }else{
+    echo  "Social Insurance";
+  }
+}
+
+function MedicalInsurance($lang){
+  if($lang == 'ar'){
+    echo  "تأمين طبي";
+  }else{
+    echo  "Medical Insurance";
+  }
+}
+
+
+function TaxesAndInsurance($lang){
+  if($lang == 'ar'){
+    echo  "الضرائب والتأمينات";
+  }else{
+    echo  "Taxes And Insurance";
   }
 }
 
@@ -997,14 +1647,29 @@ function Submit_text($lang){
   }
 }
 
-function Next_text($lang){
+function NewMessage_text($lang){
+  if($lang == 'ar'){
+    echo  "رسالة جديدة";
+  }else{
+    echo  "New Message";
+  }
+}
+
+function MessagesNotifications($lang){
+  if($lang == 'ar'){
+    echo  "الرسائل والأشعارات";
+  }else{
+    echo  "Messages And Notifications";
+  }
+}
+
+function Next_New($lang){
   if($lang == 'ar'){
     echo  "التالي";
   }else{
     echo  "Next";
   }
 }
-
 
 function Action_text($lang){
   if($lang == 'ar'){
@@ -1013,77 +1678,4 @@ function Action_text($lang){
     echo  "Action";
   }
 }
-
-// action for ajax
-
-function login_welcome($lang){
-  if($lang == "ar"){
-    echo "مرحباً بك !";
-  }else{
-    echo "welcome";
-  }
-}
-
-function Login_Converter($lang){
-  if($lang == "ar"){
-    echo "لحظات ويتم تحويلك : ";
-  }else{
-    echo "Moments are converted:";
-  }
-}
-function Login_Error($lang){
-  if($lang == "ar"){
-    echo "___ خطأ ___";
-  }else{
-    echo "___ Error ___";
-  }
-}
-
-function Login_maybr($lang){
-  if($lang == "ar"){
-    echo "ربما إسم المستخدم او كلمة المرور خاطئة الرجاء  إعادة الدخول مرة أخرى";
-  }else{
-    echo "Username or password may be wrong Please re-enter again";
-  }
-}
-
-
-function Login_empty($lang){
-  if($lang == "ar"){
-    echo "يجب كتابة رمز الدخول وكلمة المرور الخاصين بك";
-  }else{
-    echo "You must type your login Username and password";
-  }
-}
-
-function success_text($lang){
-  if($lang == "ar"){
-    echo "تهانينا";
-  }else{
-    echo "Congratulations";
-  }
-}
-function success_action_text($lang){
-  if($lang == "ar"){
-    echo "عملية ناجحة";
-  }else{
-    echo "Successful Process";
-  }
-}
-
-function error_text($lang){
-  if($lang == "ar"){
-    echo "عذراً";
-  }else{
-    echo "Sorry";
-  }
-}
-function error_action_text($lang){
-  if($lang == "ar"){
-    echo "عملية فاشلة";
-  }else{
-    echo "failed process";
-  }
-}
-
 ?>
