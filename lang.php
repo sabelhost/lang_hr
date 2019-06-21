@@ -1,4 +1,8 @@
 <?php
+/*
+* Auther: Ahmed Maher
+ */
+
 function samir($lang){
   if($lang == 'ar'){
     echo "سمير وعلي";
